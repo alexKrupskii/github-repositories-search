@@ -1,0 +1,96 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .repoPage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 900px;
+        height: 550px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.185);
+        padding: 20px;
+
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #24292e;
+            height: 100px;
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.521);
+
+            span {  
+                font-size: 40px;
+                font-weight: 500;
+                text-transform: uppercase;
+                color: white;
+            }
+        }
+
+        .repoDataWrapper {
+            flex: 1;
+            width: 100%;
+            position: relative;
+
+            .repoWrapper {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                
+                .avatar { 
+                    display: flex;
+                    justify-content: center;
+                    width: 50%;
+
+                    img {
+                        height: 200px;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.445);
+                    }
+                }
+    
+                .repoData {
+                    display: flex;
+                    flex-direction: column;
+                    width: 35%;
+
+                    div {
+                        display: flex;
+                        align-items: baseline;
+
+                        span {
+                            font-size: 16px;
+                            width: 100%
+                        } 
+
+                        .item {
+                            width: 600px;
+                            padding: 10px;
+                            background-color: #24292e;
+                            margin-bottom: 10px;
+                            border-radius: 10px;
+                            color: white;
+                            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.096);
+                        }  
+                    }  
+                }
+            }
+
+            .loading {
+                height: 100%;
+                font-size: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }  
+    }
+}

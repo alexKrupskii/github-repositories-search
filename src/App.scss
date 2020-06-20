@@ -1,0 +1,15 @@
+.App {
+    height: 100vh;
+    background: repeating-linear-gradient(-45deg,
+    rgba(253, 252, 252, 0.877) 5px, 
+    rgba(253, 253, 253, 0.808) 10px,
+    rgba(250, 250, 250, 0.884) 10px,
+    rgba(250, 250, 250, 0.801) 20px);
+    // background-color: rgba(233, 234, 240, 0.35);
+
+    .container {
+        width: 1200px;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+}
